@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "MFIHeadspaceBlobView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet MFIHeadspaceBlobView *frontView;
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.frontView.color = [UIColor orangeColor];
 }
 
 - (void)didReceiveMemoryWarning {

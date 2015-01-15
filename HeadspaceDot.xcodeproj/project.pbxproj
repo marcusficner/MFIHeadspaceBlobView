@@ -14,6 +14,7 @@
 		2C5E7D731A67055F0009AB29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5E7D721A67055F0009AB29 /* Images.xcassets */; };
 		2C5E7D761A67055F0009AB29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5E7D741A67055F0009AB29 /* LaunchScreen.xib */; };
 		2C5E7D821A67055F0009AB29 /* HeadspaceDotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E7D811A67055F0009AB29 /* HeadspaceDotTests.m */; };
+		2C5E7D8D1A6705890009AB29 /* MFIHeadspaceBlobView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E7D8C1A6705890009AB29 /* MFIHeadspaceBlobView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2C5E7D7B1A67055F0009AB29 /* HeadspaceDotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadspaceDotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5E7D801A67055F0009AB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C5E7D811A67055F0009AB29 /* HeadspaceDotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadspaceDotTests.m; sourceTree = "<group>"; };
+		2C5E7D8B1A6705890009AB29 /* MFIHeadspaceBlobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFIHeadspaceBlobView.h; sourceTree = "<group>"; };
+		2C5E7D8C1A6705890009AB29 /* MFIHeadspaceBlobView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFIHeadspaceBlobView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				2C5E7D721A67055F0009AB29 /* Images.xcassets */,
 				2C5E7D741A67055F0009AB29 /* LaunchScreen.xib */,
 				2C5E7D651A67055F0009AB29 /* Supporting Files */,
+				2C5E7D8B1A6705890009AB29 /* MFIHeadspaceBlobView.h */,
+				2C5E7D8C1A6705890009AB29 /* MFIHeadspaceBlobView.m */,
 			);
 			path = HeadspaceDot;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C5E7D6E1A67055F0009AB29 /* ViewController.m in Sources */,
+				2C5E7D8D1A6705890009AB29 /* MFIHeadspaceBlobView.m in Sources */,
 				2C5E7D6B1A67055F0009AB29 /* AppDelegate.m in Sources */,
 				2C5E7D681A67055F0009AB29 /* main.m in Sources */,
 			);
